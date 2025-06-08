@@ -12,7 +12,10 @@
   "dependencies": {
     "plasmo": "0.90.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "jspdf": "^2.5.1",
+    "html2canvas": "^1.4.1",
+    "handlebars": "^4.7.8"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "4.1.1",
@@ -24,6 +27,9 @@
     "typescript": "5.3.3"
   },
   "manifest": {
+    "name": "Multi-Tool Pro Extension",
+    "description": "Professional web development toolkit with advanced screenshot, recording, and design tools",
+    "version": "2.0.0",
     "permissions": [
       "activeTab",
       "tabs",
@@ -34,6 +40,11 @@
     "host_permissions": [
       "https://*/*",
       "http://*/*"
-    ]
+    ],
+    "options_page": "options.html",
+    "action": {
+      "default_title": "Multi-Tool Pro - Web Development Toolkit",
+      "default_popup": "popup.html"
+    }
   }
 }
