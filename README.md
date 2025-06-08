@@ -2,6 +2,8 @@
 
 A comprehensive Chrome extension built with [Plasmo Framework](https://docs.plasmo.com/) that provides four essential tools for web development and productivity:
 
+![Multi-Tool Chrome Extension - Image](screenshot.png)
+
 ## 🛠️ Features
 
 ### 🎥 Screen Recording
